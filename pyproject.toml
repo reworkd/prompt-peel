@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "prompt_peel"
+version = "0.1.0"
+description = ""
+authors = ["asim-shrestha <asim.shrestha@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tiktoken = "^0.5.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.3.7"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+pytest-asyncio = "^0.21.2"
+pytest-mock = "^3.14.0"
+pytest-cov = "^4.1.0"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+allow_subclassing_any = true
+allow_untyped_calls = true
+pretty = true
+show_error_codes = true
+implicit_reexport = true
+allow_untyped_decorators = true
+warn_unused_ignores = false
+warn_return_any = false
+namespace_packages = true
+exclude = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
