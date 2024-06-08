@@ -1,4 +1,4 @@
-# Peel
+# Peel 🍌
 A Python prompt design library heavily based on Priompt from Cursor/Anysphere. 
 Build declarative prompts that automatically select the "optimal" prompt based on priority
 
