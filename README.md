@@ -1,11 +1,11 @@
-# Peel 🍌
+# Prompt-peel 🍌
 A Python prompt design library heavily based on Priompt from Cursor/Anysphere. 
 Build declarative prompts that automatically select the "optimal" prompt based on priority
 
-TODO: Existing prompt libraries are glorified format strings. They introduce unnecessary boilerplate instead of reducing code size.
-We don't want to think too deeply about the implementation of underlying prompting patterns or prompt transformations. It should be done in a declarative way.
-
 ## What's wrong with prompt design today?
+TODO
+
+## How does priompt/prompt-peel aim to fix it?
 TODO
 
 ## DSL
